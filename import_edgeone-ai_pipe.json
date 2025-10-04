@@ -1,0 +1,7 @@
+{
+  "id": "edgeone_ai",
+  "name": "EdgeOne_AI",
+  "author": "Besty",
+  "description": "AI Gateway (Gemini) for OpenWebUI Integration with EdgeOne",
+  "git_url": "https://github.com/Besty0728/OpenWebUI-EdgeOne-AI-Gemini/blob/main/edgeone_ai.py"
+}
