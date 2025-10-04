@@ -1,6 +1,6 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=160&section=header&text=🌈%20你好啊，欢迎来到OpenWebUI-EdgeOne-AI-Gemini部署指南%20✨&fontSize=28&fontColor=fff&animation=twinkling&fontAlignY=40" />
 
-# OpenWebUI-Base64-Image部署指南
+# OpenWebUI-EdgeOne-AI-Gemini部署指南
 发现了EdgeOne的一个AI网关功能貌似配合我们的Gemini的Key可以更好的使用，于是研究了一下配合OpenWebUI使用，同时实现了APIKey的负载均衡。
 
 ## 部署步骤
