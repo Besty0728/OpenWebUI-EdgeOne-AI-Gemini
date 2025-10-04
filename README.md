@@ -15,7 +15,7 @@ https://github.com/Besty0728/OpenWebUI-EdgeOne-AI-Gemini/blob/main/edgeone_ai.py
 ### 3.⚠️ 重要提示，不要改动Pipe的Pipe ID，必须保持为 `edgeone_ai`，否则无法正常工作。（除非你将我们的文件名称一并改动）
 这个值目前是硬编码，必须完全匹配，未来版本或许可配置
 
-### 4. 导入后，您应该会在功能列表中看到 `OpenWebUI-Base图片解码器` 。
+### 4. 导入后，您应该会在功能列表中看到 `EdgeOne_AI` 。
 填入你的
 - 选择的API版本
 - 自定义API请求地址
