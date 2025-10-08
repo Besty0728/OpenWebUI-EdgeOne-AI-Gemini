@@ -17,7 +17,6 @@ https://github.com/Besty0728/OpenWebUI-EdgeOne-AI-Gemini/blob/main/edgeone_ai.py
 
 ### 4. 导入后，您应该会在功能列表中看到 `EdgeOne_AI` 。
 填入你的
-- 选择的API版本
 - 自定义API请求地址
 - 你的 API Key
 - 模型名称（多个模型使用英文逗号,隔开）
