@@ -39,7 +39,6 @@ class Pipe:
             default="https://ai-gateway.eo-edgefunctions7.com/v1",
             description="你的EdgeOneAI网关分配的地址/v1",
         )
-        # 【核心修改】将单个 api_key 字段改为复数的 api_keys
         api_keys: str = Field(
             default="",
             description="输入一个或多个API Key，请用英文逗号 (,) 分隔。",
@@ -107,7 +106,7 @@ class Pipe:
             return "错误：管道未配置。请确保 API Keys, OE-Key, 和 Gateway Name 均已填写。"
 
         try:
-            # 【核心修改】调用负载均衡方法获取一个Key
+            # 调用负载均衡方法获取一个Key
             api_key = self._get_next_api_key()
             if not api_key:
                 return "错误：没有可用的API Key。请在配置中至少填写一个API Key。"
