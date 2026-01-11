@@ -22,3 +22,13 @@ https://github.com/Besty0728/OpenWebUI-EdgeOne-AI-Gemini/blob/main/edgeone_ai.py
 - 模型名称（多个模型使用英文逗号,隔开）
 - OE Key（请求头模板对应值）
 - Gateway Name（请求头模板对应值）
+
+## 📝 更新日志 (Changelog)
+
+### v0.2.0 (2026-01-11)
+
+- 🌟 **Gemini 3.0 支持**: 新增 `thinking_level` (Low, Medium, High) 和 `media_resolution` 控制。
+- 🧠 **Gemini 2.x 支持**: 新增 `thinking_budget` (思考预算) 用于配置思考 Token 上限。
+- 🎨 **体验优化**: 开启实验性功能后，深度优化了 OpenWebUI 的思维链 (Chain of Thought) 折叠展示体验。
+- 🔧 **兼容性增强**: 优化模型列表分隔符支持（支持中文逗号、换行符），并增加了基础的 `thought_signature` 处理。
+- ⚡ **性能优化**: 改进了线程安全的 API Key 负载均衡机制。
