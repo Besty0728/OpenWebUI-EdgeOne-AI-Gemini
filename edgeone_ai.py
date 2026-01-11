@@ -5,7 +5,7 @@ author: Besty0728
 author_url: https://github.com/Besty0728
 git_url: https://github.com/Besty0728/OpenWebUI-EdgeOne-AI-Gemini/blob/main/edgeone_ai.py
 description: 适用于 OpenWebUI 对接 EdgeOne AI 网关（Gemini），支持 Gemini 原生和 OpenAI 兼容两种格式，支持 API Key 负载均衡
-version: 1.0.0
+version: 0.2.0
 license: Apache2.0
 """
 import os
